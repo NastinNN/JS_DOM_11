@@ -1,0 +1,13 @@
+p {
+      margin: 0;
+}
+
+.all-cards {
+      display: flex;
+      justify-content: space-between;
+      margin: 50px;
+}
+
+.card-description {
+      margin-bottom: 10px;
+}

@@ -11,3 +11,19 @@ p {
 .card-description {
       margin-bottom: 10px;
 }
+
+.sale {
+      margin-top: 100px;
+      background-color: rgb(199, 54, 83);
+      border-radius: 10px;
+}
+
+.timer-description,
+.timer {
+      display: block;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      color: rgb(255, 255, 255);
+}

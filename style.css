@@ -2,10 +2,32 @@ p {
       margin: 0;
 }
 
+a, h1 {
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      color: rgb(20, 147, 45);
+}
+
+a:hover, a:active {
+      color: rgb(12, 88, 27);
+}
+
+h1 {
+      font-size: 24px;
+      font-weight: 700;
+}
+
+.links {
+      text-align: center;
+      margin: 100px auto;
+}
+
 .all-cards {
+      margin-top: 150px;
       display: flex;
-      justify-content: space-between;
-      margin: 50px;
+      justify-content: space-around;
 }
 
 .card-description {
@@ -26,4 +48,20 @@ p {
       font-size: 24px;
       font-weight: 600;
       color: rgb(255, 255, 255);
+}
+
+table {
+      margin: 100px auto;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      border-collapse: collapse;
+      border: 1px solid rgb(39, 39, 39);
+      background-color: rgb(232, 232, 232);
+}
+
+tr, td {
+      border-collapse: collapse;
+      border: 1px solid rgb(39, 39, 39);
+      padding: 5px;
 }
